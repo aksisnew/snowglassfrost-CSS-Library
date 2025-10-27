@@ -1,0 +1,14 @@
+body {
+        overflow-x:hidden;
+            user-select: none;
+            overflow-y: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1a1d23;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;}
