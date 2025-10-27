@@ -1,0 +1,16 @@
+:root {
+  --gradient-blue: linear-gradient(135deg, #0a84ff, #4a90e2);
+  --gradient-purple: linear-gradient(135deg, #5e5ce6, #af52de);
+  --gradient-green: linear-gradient(135deg, #34c759, #30d158);
+  --gradient-orange: linear-gradient(135deg, #ff9500, #ff9f0a);
+  --gradient-pink: linear-gradient(135deg, #ff375f, #ff2d55);
+  --gradient-red: linear-gradient(135deg, #ff3b30, #ff453a);
+  --gradient-silver: linear-gradient(135deg, #c0c0c0, #e0e0e0);
+  --gradient-card: linear-gradient(135deg, #fceabb, #f8b500);
+  --gradient-music: linear-gradient(135deg, #fa233b, #ff5e3a);
+  --gradient-face: linear-gradient(135deg, #1d1d1f, #3a3a3c);
+  --gradient-tv: linear-gradient(135deg, #0d0d0d, #1c1c1e);
+  --gradient-dark: linear-gradient(13t5deg, #2c2c2e, #1c1c1e);
+  --shadow-one-box: 0px 0px 12px #8098ff;
+}
+   
