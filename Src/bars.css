@@ -1,0 +1,151 @@
+.progress-bar-1 {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.progress-bar-1 .progress {
+  width: 50%;
+  height: 100%;
+  background-color: #0a84ff;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-2 {
+  width: 100%;
+  height: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.progress-bar-2 .progress {
+  width: 75%;
+  height: 100%;
+  background-color: #34c759;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-3 {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progress-bar-3 .progress {
+  width: 25%;
+  height: 100%;
+  background-color: #ff3b30;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-4 {
+  width: 100%;
+  height: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+.progress-bar-4 .progress {
+  width: 50%;
+  height: 100%;
+  background-color: #0a84ff;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-5 {
+  width: 100%;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.progress-bar-5 .progress {
+  width: 75%;
+  height: 100%;
+  background-color: #34c759;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-6 {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.progress-bar-6 .progress {
+  width: 25%;
+  height: 100%;
+  background-color: #ff3b30;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-7 {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar-7 .progress {
+  width: 50%;
+  height: 100%;
+  background-color: #0a84ff;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-8 {
+  width: 100%;
+  height: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-8 .progress {
+  width: 75%;
+  height: 100%;
+  background-color: #34c759;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-9 {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-9 .progress {
+  width: 25%;
+  height: 100%;
+  background-color: #ff3b30;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-10 {
+  width: 100%;
+  height: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.progress-bar-10 .progress {
+  width: 50%;
+  height: 100%;
+  background-color: #0a84ff;
+  transition: width 0.5s ease-in-out;
+}
