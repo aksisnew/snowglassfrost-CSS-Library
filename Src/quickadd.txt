@@ -1,2 +1,19 @@
 copy paste these under head tag of your html and get this library running quickly!
- 
+ <link rel="stylesheet" href="src/additional.css">
+<link rel="stylesheet" href="src/alert.css">
+<link rel="stylesheet" href="src/animated.css">
+<link rel="stylesheet" href="src/bars.css">
+<link rel="stylesheet" href="src/body.css">
+<link rel="stylesheet" href="src/button.css">
+<link rel="stylesheet" href="src/cursor.css">
+<link rel="stylesheet" href="src/div.css">
+<link rel="stylesheet" href="src/dropdown.css">
+<link rel="stylesheet" href="src/focus.css">
+<link rel="stylesheet" href="src/iframe.css">
+<link rel="stylesheet" href="src/input.css">
+<link rel="stylesheet" href="src/main.css">
+<link rel="stylesheet" href="src/modal.css">
+<link rel="stylesheet" href="src/scrollbar.css">
+<link rel="stylesheet" href="src/spinner.css">
+<link rel="stylesheet" href="src/tabs.css">
+<link rel="stylesheet" href="src/textstyle.css">
