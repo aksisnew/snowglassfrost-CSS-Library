@@ -1,4 +1,14 @@
 :root {
+  --gradient-yellow: linear-gradient(135deg, #ffff00, #ffff66);
+--gradient-teal: linear-gradient(135deg, #0097a7, #00bcd4);
+--gradient-lavender: linear-gradient(135deg, #c7b8ea, #b2e6ce);
+--gradient-brown: linear-gradient(135deg, #964b00, #786c3b);
+--gradient-gray: linear-gradient(135deg, #808080, #c0c0c0);
+--gradient-turquoise: linear-gradient(135deg, #1abc9c, #16a085);
+--gradient-mint: linear-gradient(135deg, #acffac, #34c759);
+--gradient-coral: linear-gradient(135deg, #ffc67d, #ffa07a);
+--gradient-navy: linear-gradient(135deg, #032b44, #1a3c66);
+--gradient-forest: linear-gradient(135deg, #228b22, #3e8e41);
   --gradient-blue: linear-gradient(135deg, #0a84ff, #4a90e2);
   --gradient-purple: linear-gradient(135deg, #5e5ce6, #af52de);
   --gradient-green: linear-gradient(135deg, #34c759, #30d158);
