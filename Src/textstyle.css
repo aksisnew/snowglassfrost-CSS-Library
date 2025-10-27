@@ -1,0 +1,34 @@
+.txtstyle3 {
+  background: linear-gradient(135deg, #6b73ff, #33ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+.txtstyle4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-justify: inter-word;
+  background: linear-gradient(to bottom, #333, #444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txtstyle5 {
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 3;
+  letter-spacing: 1px;
+}
+.txtstyle1 {
+      font-weight:bolder;
+      margin-top:8px;
+      margin-left: 10px;
+      font-size:1.9rem;
+      text-shadow: 0px 0px 0px 8px grey;
+}
