@@ -32,3 +32,104 @@
       font-size:1.9rem;
       text-shadow: 0px 0px 0px 8px grey;
 }
+.glowing-text-1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff, 0 0 30px #0a84ff;
+}
+
+.glowing-text-2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #34c759, 0 0 20px #34c759, 0 0 30px #34c759;
+}
+
+.glowing-text-3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #ff3b30, 0 0 20px #ff3b30, 0 0 30px #ff3b30;
+}
+
+.glowing-text-4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a84ff;
+  text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff;
+  animation: glow 2s ease-in-out infinite;
+}
+
+.glowing-text-5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #34c759;
+  text-shadow: 0 0 10px #34c759, 0 0 20px #34c759;
+  animation: glow 2s ease-in-out infinite;
+}
+
+.glowing-text-6 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff3b30;
+  text-shadow: 0 0 10px #ff3b30, 0 0 20px #ff3b30;
+  animation: glow 2s ease-in-out infinite;
+}
+
+.glowing-text-7 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.glowing-text-8 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #34c759, 0 0 20px #34c759;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.glowing-text-9 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #ff3b30, 0 0 20px #ff3b30;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.glowing-text-10 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a84ff;
+  text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff;
+  animation: glow 2s ease-in-out infinite, pulse 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff;
+  }
+  50% {
+    text-shadow: 0 0 15px #0a84ff, 0 0 30px #0a84ff;
+  }
+  100% {
+    text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
