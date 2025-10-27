@@ -1,0 +1,2 @@
+copy paste these under head tag of your html and get this library running quickly!
+ 
