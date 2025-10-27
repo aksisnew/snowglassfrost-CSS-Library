@@ -1,0 +1,217 @@
+.spinner-1 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #0a84ff;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-2 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #34c759;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+.spinner-3 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ff3b30;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+.spinner-4 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #0a84ff;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.spinner-5 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #34c759;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1.5s ease-in-out infinite;
+}
+
+.spinner-6 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ff3b30;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 2s ease-in-out infinite;
+}
+
+.spinner-7 {
+  width: 40px;
+  height: 40px;
+  background-color: #0a84ff;
+  border-radius: 50%;
+  animation: pulse 1s linear infinite;
+}
+
+.spinner-8 {
+  width: 40px;
+  height: 40px;
+  background-color: #34c759;
+  border-radius: 50%;
+  animation: pulse 1.5s linear infinite;
+}
+
+.spinner-9 {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3b30;
+  border-radius: 50%;
+  animation: pulse 2s linear infinite;
+}
+
+.spinner-10 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #0a84ff;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite, scale 2s linear infinite;
+}
+
+.spinner-11 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #34c759;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite, scale 2.5s linear infinite;
+}
+
+.spinner-12 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ff3b30;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 2s linear infinite, scale 3s linear infinite;
+}
+
+.spinner-13 {
+  width: 40px;
+  height: 40px;
+  background-color: #0a84ff;
+  animation: rotate 2s linear infinite;
+}
+
+.spinner-14 {
+  width: 40px;
+  height: 40px;
+  background-color: #34c759;
+  animation: rotate 2.5s linear infinite;
+}
+
+.spinner-15 {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3b30;
+  animation: rotate 3s linear infinite;
+}
+
+.spinner-16 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #0a84ff;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite, opacity 2s linear infinite;
+}
+
+.spinner-17 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #34c759;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite, opacity 2.5s linear infinite;
+}
+
+.spinner-18 {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ff3b30;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 2s linear infinite, opacity 3s linear infinite;
+}
+
+.spinner-19 {
+  width: 40px;
+  height: 40px;
+  background-color: #0a84ff;
+  animation: scale 2s linear infinite;
+}
+
+.spinner-20 {
+  width: 40px;
+  height: 40px;
+  background-color: #34c759;
+  animation: scale 2.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
