@@ -17,3 +17,5 @@ copy paste these under head tag of your html and get this library running quickl
 <link rel="stylesheet" href="src/spinner.css">
 <link rel="stylesheet" href="src/tabs.css">
 <link rel="stylesheet" href="src/textstyle.css">
+<link rel="stylesheet" href="src/root.css">
+
