@@ -1,4 +1,33 @@
 :root {
+  --shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
+--shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.15);
+--shadow-lg: 0px 8px 16px rgba(0, 0, 0, 0.2);
+--shadow-xl: 0px 12px 24px rgba(0, 0, 0, 0.25);
+--shadow-2xl: 0px 16px 32px rgba(0, 0, 0, 0.3);
+--shadow-card: 0px 0px 10px rgba(0, 0, 0, 0.05), 0px 4px 8px rgba(0, 0, 0, 0.1);
+--shadow-button: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(0, 0, 0, 0.05);
+--shadow-inset: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+--shadow-float: 0px 8px 24px rgba(0, 0, 0, 0.2), 0px 2px 4px rgba(0, 0, 0, 0.1);
+--shadow-focus: 0px 0px 0px 2px rgba(0, 122, 255, 0.5);
+--blur-sm: backdrop-filter: blur(4px);
+--blur-md: backdrop-filter: blur(8px);
+--blur-lg: backdrop-filter: blur(12px);
+--blur-xl: backdrop-filter: blur(16px);
+--blur-2xl: backdrop-filter: blur(20px);
+--mica-effect: backdrop-filter: blur(20px) saturate(180%);
+--glass-effect: backdrop-filter: blur(10px) brightness(1.2);
+--frosted-glass: backdrop-filter: blur(10px) opacity(0.8);
+--modern-blur: backdrop-filter: blur(15px) contrast(1.2);
+--depth-blur: backdrop-filter: blur(25px) brightness(0.8);
+--radius-sm: 4px;
+--radius-md: 8px;
+--radius-lg: 12px;
+--radius-xl: 16px;
+--radius-2xl: 20px;
+--radius-full: 50%;
+--radius-pill: 9999px;
+--radius-circle: 100%;
+
   --gradient-yellow: linear-gradient(135deg, #ffff00, #ffff66);
 --gradient-teal: linear-gradient(135deg, #0097a7, #00bcd4);
 --gradient-lavender: linear-gradient(135deg, #c7b8ea, #b2e6ce);
